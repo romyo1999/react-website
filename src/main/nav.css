@@ -1,0 +1,69 @@
+#nav img{
+    width: 160px;
+    height: 160px;
+}
+
+
+#nav li{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#nav a{
+    text-decoration: none !important;
+    text-align: center;
+    margin: 0px 10px;
+    margin: 5px 10px;
+}
+#nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around !important;
+    background-color: aqua;
+    height: auto;
+    border-bottom: 2px solid rgb(224, 127, 17);
+    
+}
+@keyframes Contact {
+    from{
+        transform:scale(1);
+        color: azure;
+    }
+    to{
+        transform:scale(1.1);
+
+        color: black;
+    }
+    
+}
+#nav button{
+    padding: 5px 10px ;
+    margin: 0px 50px;
+    background-color: rgb(106, 177, 118);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(106, 177, 118) ;
+    border-radius: 10px !important;
+    box-sizing: border-box;
+    animation-name: Contact;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#nav button span{
+    font-size: 20px;
+    font-weight: bold;
+}
+@media only screen and (max-width:767px) {
+    #nav ul{
+        background-color: aqua;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        
+    }
+    li{
+        text-align: center;
+    }
+}
